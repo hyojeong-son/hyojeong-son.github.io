@@ -8,7 +8,7 @@ title: Home
   <p>
     Hello, my name is **Hyojeong Son**. I am a 4th year grad student at the University of Washington, Seattle Math Department. You can reach me here: <a href="mailto:hjson@uw.edu">hjson@uw.edu</a>
   </p>
-  <img src="/assets/files/profile.jpeg" alt="Profile Picture">
+  <img src="/assets/files/profile/profile.jpeg" alt="Profile Picture">
 </div>
 
 <!-- Sections -->
