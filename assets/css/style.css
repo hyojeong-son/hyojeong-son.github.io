@@ -12,7 +12,7 @@ body {
 
 .container {
   width: 98%; /* Increased width to make margins narrower */
-  max-width: 1400px; /* Increased max-width */
+  max-width: 1600px; /* Increased max-width */
   margin: auto;
   overflow: hidden;
 }
@@ -29,12 +29,12 @@ header a {
 }
 
 header h1 {
-  font-size: 28px;
+  font-size: 36px; /* Largest font size for your name */
   margin: 0;
 }
 
 header h1 a {
-  color: #007FFF;
+  color: #007FFF; /* Azure blue color */
 }
 
 header nav {
@@ -54,7 +54,7 @@ header li {
 
 header nav a {
   color: #17B169;
-  font-size: 18px;
+  font-size: 24px; /* Next largest font size for nav links */
 }
 
 .header-content {
@@ -70,7 +70,7 @@ header nav a {
 }
 
 .intro p {
-  font-size: 16px;
+  font-size: 18px;
   flex: 1;
 }
 
@@ -88,9 +88,9 @@ header nav a {
 
 .section-links a {
   margin-right: 20px;
-  color: #007FFF;
+  color: #17B169; /* Same color as header nav links */
   text-decoration: none;
-  font-size: 18px;
+  font-size: 24px; /* Next largest font size for nav buttons */
 }
 
 .section-links a:hover {
@@ -99,9 +99,9 @@ header nav a {
 
 /* Main Content Styles */
 main h2 {
-  color: #35424a;
+  color: #007FFF; /* Azure blue color for section headings */
   margin-top: 30px;
-  font-size: 24px;
+  font-size: 22px; /* Third largest font size for section headings */
 }
 
 main h3 {
@@ -111,7 +111,7 @@ main h3 {
 
 main p,
 main li {
-  font-size: 16px;
+  font-size: 16px; /* Smaller font size for content */
 }
 
 /* Responsive Design */
