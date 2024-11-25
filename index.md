@@ -5,12 +5,14 @@ title: Home
 
 <!-- Introduction Section -->
 <div class="intro">
-  <p>
-    Hello! I'm Hyojeong, a fourth-year graduate student in the <a href="https://math.washington.edu" target="_blank">Mathematics Department</a> at the University of Washington, Seattle, working under <a href="https://sites.math.washington.edu/~hoffman/" target="_blank">Professor Christopher Hoffman</a>. I specialize in discrete probability, focusing on particle models like activated random walks and sandpiles. Additionally, I explore stable matching problems, investigating the number of possible matchings based on different preference structures.
-  </p>
-  <p>
-    Welcome to my personal webpage! You can reach me at <a href="mailto:hjson@math.washington.edu">hjson@math.washington.edu</a>, and my office is Padelford C-8K.
-  </p>
+  <div class="intro-text">
+    <p>
+      Hello! I'm Hyojeong, a fourth-year graduate student in the <a href="https://math.washington.edu" target="_blank">Mathematics Department</a> at the University of Washington, Seattle, working under <a href="https://sites.math.washington.edu/~hoffman/" target="_blank">Professor Christopher Hoffman</a>. I specialize in discrete probability, focusing on particle models like activated random walks and sandpiles. Additionally, I explore stable matching problems, investigating the number of possible matchings based on different preference structures.
+    </p>
+    <p>
+      Welcome to my personal webpage! You can reach me at <a href="mailto:hjson@math.washington.edu">hjson@math.washington.edu</a>, and my office is Padelford C-8K.
+    </p>
+  </div>
   <img src="/assets/files/profile.jpeg" alt="Profile Picture">
 </div>
 
@@ -53,11 +55,11 @@ Math 395 (Probability II): Spring 2024, Winter 2025
 ## Mentoring and Projects
 <a id="mentorship"></a>
 
-🧩 Washington Experimental Mathematics Lab (Spring 2024) 
-Mentored undergraduates on projects involving voting data, map analysis, and ecological inference in the Yakima Valley area.
+- 🧩 Washington Experimental Mathematics Lab (Spring 2024)  
+  Mentored undergraduates on projects involving voting data, map analysis, and ecological inference in the Yakima Valley area.
 
-🧩 Graduate Student-Led Reading Program, WashU (Spring 2020) 
-Organized and led a reading group for math undergraduates, focusing on sandpiles.
+- 🧩 Graduate Student-Led Reading Program, WashU (Spring 2020)  
+  Organized and led a reading group for math undergraduates, focusing on sandpiles.
 
 ---
 
