@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-  width: 80%; /* Reduced width to make content area narrower */
-  max-width: 1000px; /* Reduced max-width */
+  width: 85%; /* Adjusted width for wider margins */
+  max-width: 800px; /* Adjusted max-width */
   margin: auto;
   overflow: hidden;
 }
@@ -21,6 +21,7 @@ header {
   background: #ffffff;
   color: #000000;
   padding: 15px 0;
+  border-bottom: 1px solid #ccc; /* Added horizontal bar */
 }
 
 header a {
@@ -85,7 +86,7 @@ header nav a {
 main h2 {
   color: #007FFF; /* Azure blue color for section headings */
   margin-top: 30px;
-  font-size: 22px; /* Third largest font size for section headings */
+  font-size: 22px; /* Font size for section headings */
   font-weight: bold; /* Bold section titles */
 }
 
@@ -95,8 +96,19 @@ main h3 {
 }
 
 main p,
-main li {
+main li,
+main div {
   font-size: 16px; /* Standard font size for content */
+  font-weight: normal; /* Ensure normal font weight */
+}
+
+main a {
+  color: #007FFF; /* Link color matching your name */
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
 }
 
 /* Responsive Design */
