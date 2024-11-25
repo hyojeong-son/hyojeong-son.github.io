@@ -6,7 +6,10 @@ title: Home
 <!-- Introduction Section -->
 <div class="intro">
   <p>
-    Hello! I'm Hyojeong, a fourth-year graduate student in the <a href="https://math.washington.edu" target="_blank">Mathematics Department</a> at the University of Washington, Seattle, working under <a href="https://sites.math.washington.edu/~hoffman/" target="_blank">Professor Christopher Hoffman</a>. I specialize in discrete probability, focusing on particle models like activated random walks and sandpiles. Additionally, I explore stable matching problems, investigating the number of possible matchings based on different preference structures. Welcome to my personal webpage! You can reach me at <a href="mailto:hjson@math.washington.edu">hjson@math.washington.edu</a>, and my office is Padelford PDL C-8K.
+    Hello! I'm Hyojeong, a fourth-year graduate student in the <a href="https://math.washington.edu" target="_blank">Mathematics Department</a> at the University of Washington, Seattle, working under <a href="https://sites.math.washington.edu/~hoffman/" target="_blank">Professor Christopher Hoffman</a>. I specialize in discrete probability, focusing on particle models like activated random walks and sandpiles. Additionally, I explore stable matching problems, investigating the number of possible matchings based on different preference structures.
+  </p>
+  <p>
+    Welcome to my personal webpage! You can reach me at <a href="mailto:hjson@math.washington.edu">hjson@math.washington.edu</a>, and my office is Padelford C-8K.
   </p>
   <img src="/assets/files/profile.jpeg" alt="Profile Picture">
 </div>
@@ -30,7 +33,7 @@ title: Home
 
 ---
 
-## Teaching Experience (as Teaching Assistant)
+## Teaching Experience
 <a id="teaching-experience"></a>
 
 Math 111 (Algebra): Fall 2022
@@ -58,7 +61,7 @@ Organized and led a reading group for math undergraduates, focusing on sandpiles
 
 ---
 
-## Awards and Scholarships
+## Honors and Awards
 <a id="awards"></a>
 
 - Lisa Tanzi and Charles Egerton Endowed Graduate Fellowship (2024)  
