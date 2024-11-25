@@ -1,14 +1,9 @@
 ---
 layout: default
 title: CV
-permalink: /cv/
+permalink: /cv-page/
 ---
 
 # Curriculum Vitae
 
-Under Construction
-
-<!-- Link to your PDF CV if available -->
-<!-- Example: -->
-<!-- [Download my CV]( /assets/files/Hyojeong_Son_CV.pdf ) -->
-
+[Download my CV]( {{ site.baseurl }}/assets/files/(Hyojeong Son) CV.pdf )
