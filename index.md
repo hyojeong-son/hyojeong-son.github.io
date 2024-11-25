@@ -56,10 +56,10 @@ Math 395 (Probability II): Spring 2024, Winter 2025
 <a id="mentorship"></a>
 
 🧩 Washington Experimental Mathematics Lab (Spring 2024)  
--Mentored undergraduates on projects involving voting data, map analysis, and ecological inference in the Yakima Valley area.
+Mentored undergraduates on projects involving voting data, map analysis, and ecological inference in the Yakima Valley area.
 
 🧩 Graduate Student-Led Reading Program, WashU (Spring 2020)  
--Organized and led a reading group for math undergraduates, focusing on sandpiles.
+Organized and led a reading group for math undergraduates, focusing on sandpiles.
 
 ---
 
