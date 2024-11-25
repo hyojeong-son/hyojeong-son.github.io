@@ -6,9 +6,9 @@ title: Home
 <!-- Introduction Section -->
 <div class="intro">
   <p>
-    Under Construction
+    Hello, my name is **Hyojeong Son**. I am a 4th year grad student at the University of Washington, Seattle Math Department. You can reach me here: <a href="mailto:hjson@uw.edu">hjson@uw.edu</a>
   </p>
-  <img src="https://via.placeholder.com/150" alt="Profile Picture">
+  <img src="/assets/images/profile.jpg" alt="Profile Picture">
 </div>
 
 <!-- Sections -->
