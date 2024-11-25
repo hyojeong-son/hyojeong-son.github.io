@@ -20,13 +20,9 @@ title: Home
 😊 Madeline Brown, Christopher Hoffman, and Hyojeong Son  
 (2024+)
 
-<br>
-
 📝 [Cut-off for Sandpiles on Tiling Graphs](https://arxiv.org/abs/1902.04174)  
 😊 Robert Hough and Hyojeong Son  
 *Annals of Probability*, 49(2), pp. 671–731 (2021)
-
-<br>
 
 📝 [The Spectrum of the Abelian Sandpile Model](https://arxiv.org/abs/1905.07015)  
 😊 Robert Hough and Hyojeong Son  
@@ -34,10 +30,8 @@ title: Home
 
 ---
 
-## Teaching Experience
+## Teaching Experience (as Teaching Assistant)
 <a id="teaching-experience"></a>
-
-University of Washington, Seattle (Teaching Assistant)
 
 Math 111 (Algebra): Fall 2022
 
@@ -53,17 +47,13 @@ Math 395 (Probability II): Spring 2024, Winter 2025
 
 ---
 
-## Mentorship and Project Involvement
+## Mentoring and Projects
 <a id="mentorship"></a>
 
-Washington Experimental Mathematics Lab (Spring 2024)
-
+🧩 Washington Experimental Mathematics Lab (Spring 2024) 
 Mentored undergraduates on projects involving voting data, map analysis, and ecological inference in the Yakima Valley area.
 
-<br>
-
-Graduate Student-Led Reading Program, WashU (Spring 2020)
-
+🧩 Graduate Student-Led Reading Program, WashU (Spring 2020) 
 Organized and led a reading group for math undergraduates, focusing on sandpiles.
 
 ---
@@ -71,30 +61,17 @@ Organized and led a reading group for math undergraduates, focusing on sandpiles
 ## Awards and Scholarships
 <a id="awards"></a>
 
-Lisa Tanzi and Charles Egerton Endowed Graduate Fellowship (2024)
+- Lisa Tanzi and Charles Egerton Endowed Graduate Fellowship (2024)  
+  Awarded by the University of Washington Department of Mathematics.
 
-Awarded by the University of Washington Department of Mathematics.
+- Summer Math Scholarship (2018)  
+  Awarded by the Stony Brook University Mathematics Department; covered two semesters of tuition.
 
-<br>
+- Undergraduate Recognition Award for Academic Excellence (2018)  
+  Awarded by Stony Brook University; university-wide recognition for outstanding academic accomplishments.
 
-Summer Math Scholarship (2018)
+- Director of the IT Promotion Center Award (2017)  
+  Awarded to the top three student presenters at the World IT Show in South Korea.
 
-Awarded by the Stony Brook University Mathematics Department; covered two semesters of tuition.
-
-<br>
-
-Undergraduate Recognition Award for Academic Excellence (2018)
-
-Awarded by Stony Brook University; university-wide recognition for outstanding academic accomplishments.
-
-<br>
-
-Director of the IT Promotion Center Award (2017)
-
-Awarded to the top three student presenters at the World IT Show in South Korea.
-
-<br>
-
-Academic Excellence Scholarships (2015–2017)
-
-Awarded by Stony Brook University; merit-based scholarship covering three years of tuition.
+- Academic Excellence Scholarships (2015–2017)  
+  Awarded by Stony Brook University; merit-based scholarship covering three years of tuition.
