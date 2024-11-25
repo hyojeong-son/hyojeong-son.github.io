@@ -5,22 +5,11 @@ title: Home
 
 <!-- Introduction Section -->
 <div class="intro">
-  <img src="https://via.placeholder.com/150" alt="Profile Picture">
-  <p>Under Construction</p>
+  <p>
+    Under Construction
+  </p>
+  <img src="https://via.placeholder.com/200" alt="Profile Picture">
 </div>
-
-<!-- Navigation Buttons (Optional) -->
-<!-- You can remove this section if you don't need these buttons anymore. -->
-
-<!--
-<div class="nav-buttons">
-  <a href="#education" class="button">Education</a>
-  <a href="#publications" class="button">Publications</a>
-  <a href="#awards" class="button">Awards and Scholarships</a>
-  <a href="#teaching-experience" class="button">Teaching Experience</a>
-  <a href="#mentorship" class="button">Mentorship and Project Involvement</a>
-</div>
--->
 
 <!-- Sections -->
 
