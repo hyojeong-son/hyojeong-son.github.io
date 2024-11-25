@@ -19,7 +19,6 @@ title: Home
 <a id="publications"></a>
 
 - 📝 Activated Random Walks on ℤ with Critical Particle Density
-- 
   😊 Madeline Brown, Christopher Hoffman, and Hyojeong Son  
   [Link to arXiv](https://arxiv.org/abs/2411.07609) (2024+)
 
