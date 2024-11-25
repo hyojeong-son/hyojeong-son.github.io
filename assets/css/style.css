@@ -3,7 +3,7 @@
 /* Basic Styles */
 
 body {
-  font-family: Verdana, sans-serif; /* Changed font to Verdana */
+  font-family: 'Nunito', sans-serif; /* Changed font to Nunito */
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -19,8 +19,7 @@ body {
 header {
   background: #ffffff; /* White background */
   color: #000000;
-  padding: 20px 0;
-  /* Removed border-bottom to eliminate horizontal line */
+  padding: 15px 0;
 }
 
 header a {
@@ -29,7 +28,7 @@ header a {
 }
 
 header h1 {
-  font-size: 36px; /* Larger font size for your name */
+  font-size: 28px; /* Reduced font size for simplicity */
   margin: 0;
 }
 
@@ -38,7 +37,7 @@ header h1 a {
 }
 
 header nav {
-  margin-left: auto; /* Push navigation to the right */
+  margin-left: 20px; /* Space between name and nav links */
 }
 
 header ul {
@@ -49,12 +48,12 @@ header ul {
 }
 
 header li {
-  margin-left: 20px;
+  margin-left: 20px; /* Space between nav items */
 }
 
 header nav a {
   color: #17B169; /* Navigation links in color #17B169 */
-  font-size: 20px; /* Smaller font size than your name */
+  font-size: 18px; /* Smaller font size than your name */
 }
 
 .header-content {
@@ -65,19 +64,38 @@ header nav a {
 .intro {
   display: flex;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .intro p {
-  font-size: 18px;
-  flex: 1; /* Allow the paragraph to take up remaining space */
+  font-size: 16px; /* Reduced font size */
+  flex: 1;
 }
 
 .intro img {
-  width: 200px; /* Adjust size as needed */
-  height: 200px; /* Ensure it's square */
-  object-fit: cover; /* Ensure the image fills the square */
-  margin-left: 20px; /* Space between text and image */
+  width: 150px; /* Adjusted size */
+  height: 150px; /* Ensure it's square */
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+main h2 {
+  color: #35424a;
+  margin-top: 30px;
+  font-size: 24px; /* Reduced font size */
+}
+
+main p {
+  font-size: 16px; /* Consistent font size */
+}
+
+footer {
+  background: #35424a;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 14px;
 }
 
 @media(max-width: 768px) {
