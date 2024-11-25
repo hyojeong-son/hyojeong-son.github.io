@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 85%; /* Adjusted width for wider margins */
+  width: 80%; /* Adjusted width for wider margins */
   max-width: 800px; /* Adjusted max-width */
   margin: auto;
   overflow: hidden;
@@ -77,15 +77,22 @@ hr {
   margin-top: 30px;
 }
 
-.intro p {
-  font-size: 16px; /* Adjusted font size to match authors' names */
+.intro-text {
   flex: 1;
+}
+
+.intro-text p {
+  font-size: 16px; /* Adjusted font size */
   margin-top: 0; /* Remove default margin-top */
 }
 
+.intro-text p + p {
+  margin-top: 10px; /* Space between intro paragraphs */
+}
+
 .intro img {
-  width: 200px;
-  height: 200px;
+  width: 240px; /* Increased size by 1.2 times */
+  height: 240px;
   object-fit: cover;
   margin-left: 20px;
 }
@@ -98,16 +105,11 @@ main h2 {
   font-weight: bold; /* Bold section titles */
 }
 
-main h3 {
-  font-size: 20px;
-  margin-top: 20px;
-}
-
 main p,
-main li,
-main div {
+main li {
   font-size: 16px; /* Standard font size for content */
   font-weight: normal; /* Ensure normal font weight */
+  margin-bottom: 10px;
 }
 
 main a {
@@ -119,21 +121,13 @@ main a:hover {
   text-decoration: underline;
 }
 
-/* Adjust spacing between items */
-.publication-item,
-.award-item,
-.mentoring-item,
-.awards-list li {
-  margin-bottom: 8px; /* Reduced spacing between items */
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-.awards-list li {
-  margin-bottom: 12px; /* 80% of previous spacing */
-}
-
-ul.awards-list {
-  list-style: disc;
-  padding-left: 20px;
+ul li {
+  margin-bottom: 10px;
 }
 
 /* Responsive Design */
