@@ -8,7 +8,7 @@ title: Home
   <p>
     Under Construction
   </p>
-  <img src="https://via.placeholder.com/200" alt="Profile Picture">
+  <img src="https://via.placeholder.com/150" alt="Profile Picture">
 </div>
 
 <!-- Sections -->
