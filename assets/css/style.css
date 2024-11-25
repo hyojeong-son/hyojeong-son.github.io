@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-  width: 98%; /* Increased width to make margins narrower */
-  max-width: 1600px; /* Increased max-width */
+  width: 80%; /* Reduced width to make content area narrower */
+  max-width: 1000px; /* Reduced max-width */
   margin: auto;
   overflow: hidden;
 }
@@ -81,27 +81,12 @@ header nav a {
   margin-left: 20px;
 }
 
-/* Navigation Links Under Introduction */
-.section-links {
-  margin-top: 20px;
-}
-
-.section-links a {
-  margin-right: 20px;
-  color: #17B169; /* Same color as header nav links */
-  text-decoration: none;
-  font-size: 24px; /* Next largest font size for nav buttons */
-}
-
-.section-links a:hover {
-  text-decoration: underline;
-}
-
 /* Main Content Styles */
 main h2 {
   color: #007FFF; /* Azure blue color for section headings */
   margin-top: 30px;
   font-size: 22px; /* Third largest font size for section headings */
+  font-weight: bold; /* Bold section titles */
 }
 
 main h3 {
@@ -111,11 +96,15 @@ main h3 {
 
 main p,
 main li {
-  font-size: 16px; /* Smaller font size for content */
+  font-size: 16px; /* Standard font size for content */
 }
 
 /* Responsive Design */
 @media(max-width: 768px) {
+  .container {
+    width: 90%; /* Adjust width for mobile devices */
+  }
+
   .header-content {
     flex-direction: column;
     text-align: center;
@@ -137,9 +126,5 @@ main li {
   .intro img {
     margin-left: 0;
     margin-top: 20px;
-  }
-
-  .section-links {
-    text-align: center;
   }
 }
