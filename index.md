@@ -96,19 +96,5 @@ Mentored undergraduates on projects involving voting data, map analysis, and eco
 ### Graduate Student-Led Reading Program, WashU (Spring 2020)
 Organized and led a reading group for math undergraduates, focusing on sandpiles.
 
----
 
-**Instructions:**
-
-- **Replace "Under Construction"** in each section with the provided content.
-- **Ensure all links** are correct and working.
-- **Format consistency:** Use headings and bullet points as shown for clarity.
-
----
-
-## **3. Additional Instructions**
-
-### **File Structure**
-
-Your repository should now have the following structure:
 
