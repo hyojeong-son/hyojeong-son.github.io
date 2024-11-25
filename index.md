@@ -9,7 +9,10 @@ title: Home
   <p>Under Construction</p>
 </div>
 
-<!-- Navigation Buttons -->
+<!-- Navigation Buttons (Optional) -->
+<!-- You can remove this section if you don't need these buttons anymore. -->
+
+<!--
 <div class="nav-buttons">
   <a href="#education" class="button">Education</a>
   <a href="#publications" class="button">Publications</a>
@@ -17,6 +20,7 @@ title: Home
   <a href="#teaching-experience" class="button">Teaching Experience</a>
   <a href="#mentorship" class="button">Mentorship and Project Involvement</a>
 </div>
+-->
 
 <!-- Sections -->
 
