@@ -67,7 +67,7 @@ Organized and led a reading group for math undergraduates, focusing on sandpiles
 <a id="awards"></a>
 
 - Lisa Tanzi and Charles Egerton Endowed Graduate Fellowship (2024)  
-  Awarded by the University of Washington Department of Mathematics.
+  -Awarded by the University of Washington Department of Mathematics.
 
 - Summer Math Scholarship (2018)  
   Awarded by the Stony Brook University Mathematics Department; covered two semesters of tuition.
