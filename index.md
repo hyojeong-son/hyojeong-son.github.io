@@ -6,18 +6,18 @@ title: Home
 <!-- Introduction Section -->
 <div class="intro">
   <p>
-    Hello, my name is <strong>Hyojeong Son</strong>. I am a 4th year grad student at the University of Washington, Seattle Math Department. You can reach me here: <a href="mailto:hjson@uw.edu">hjson@uw.edu</a>
+    Hello! I'm <strong>Hyojeong</strong>, a fourth-year graduate student in the <a href="https://math.washington.edu" target="_blank">Mathematics Department</a> at the University of Washington, Seattle, working under <a href="https://sites.math.washington.edu/~hoffman/" target="_blank">Professor Christopher Hoffman</a>. I specialize in discrete probability, focusing on particle models like activated random walks and sandpiles. Additionally, I explore stable matching problems, investigating the number of possible matchings based on different preference structures. Welcome to my personal webpage! You can reach me at <a href="mailto:hjson@math.washington.edu">hjson@math.washington.edu</a>, and my office is Padelford PDL C-8K.
   </p>
   <img src="/assets/files/profile.jpeg" alt="Profile Picture">
 </div>
 
-<!-- Navigation Buttons -->
-<div class="nav-buttons">
-  <a href="#education" class="button">Education</a>
-  <a href="#publications" class="button">Publications</a>
-  <a href="#awards" class="button">Awards and Scholarships</a>
-  <a href="#teaching-experience" class="button">Teaching Experience</a>
-  <a href="#mentorship" class="button">Mentorship and Project Involvement</a>
+<!-- Navigation Links -->
+<div class="section-links">
+  <a href="#education">Education</a>
+  <a href="#publications">Publications</a>
+  <a href="#awards">Awards and Scholarships</a>
+  <a href="#teaching-experience">Teaching Experience</a>
+  <a href="#mentorship">Mentorship and Project Involvement</a>
 </div>
 
 <!-- Sections -->
