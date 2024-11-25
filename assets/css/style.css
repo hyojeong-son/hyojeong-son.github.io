@@ -21,7 +21,6 @@ header {
   background: #ffffff;
   color: #000000;
   padding: 15px 0;
-  border-bottom: 1px solid #ccc; /* Added horizontal bar */
 }
 
 header a {
@@ -61,6 +60,14 @@ header nav a {
 .header-content {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ccc; /* Horizontal line under header */
+  padding-bottom: 10px; /* Space below header content */
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
 }
 
 /* Introduction Section */
@@ -71,7 +78,7 @@ header nav a {
 }
 
 .intro p {
-  font-size: 18px;
+  font-size: 16px; /* Adjusted font size to match authors' names */
   flex: 1;
 }
 
@@ -111,6 +118,13 @@ main a:hover {
   text-decoration: underline;
 }
 
+/* Adjust spacing between items */
+.publication-item,
+.award-item,
+.mentoring-item {
+  margin-bottom: 10px; /* Reduced spacing between items */
+}
+
 /* Responsive Design */
 @media(max-width: 768px) {
   .container {
@@ -120,6 +134,7 @@ main a:hover {
   .header-content {
     flex-direction: column;
     text-align: center;
+    border-bottom: 1px solid #ccc;
   }
 
   .header-content h1 {
