@@ -27,11 +27,11 @@ title: Home
 
 📝 [Cut-off for Sandpiles on Tiling Graphs](https://arxiv.org/abs/1902.04174)  
 😊 Robert Hough and Hyojeong Son  
-*Annals of Probability*, 49(2), pp. 671–731 (2021)
+Annals of Probability, 49(2), pp. 671–731 (2021)
 
 📝 [The Spectrum of the Abelian Sandpile Model](https://arxiv.org/abs/1905.07015)  
 😊 Robert Hough and Hyojeong Son  
-*Mathematics of Computation*, 90(327), pp. 441–469 (2020)
+Mathematics of Computation, 90(327), pp. 441–469 (2020)
 
 ---
 
@@ -55,11 +55,11 @@ Math 395 (Probability II): Spring 2024, Winter 2025
 ## Mentoring and Projects
 <a id="mentorship"></a>
 
-- 🧩 Washington Experimental Mathematics Lab (Spring 2024)  
-  Mentored undergraduates on projects involving voting data, map analysis, and ecological inference in the Yakima Valley area.
+🧩 Washington Experimental Mathematics Lab (Spring 2024)  
+Mentored undergraduates on projects involving voting data, map analysis, and ecological inference in the Yakima Valley area.
 
-- 🧩 Graduate Student-Led Reading Program, WashU (Spring 2020)  
-  Organized and led a reading group for math undergraduates, focusing on sandpiles.
+🧩 Graduate Student-Led Reading Program, WashU (Spring 2020)  
+Organized and led a reading group for math undergraduates, focusing on sandpiles.
 
 ---
 
