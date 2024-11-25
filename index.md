@@ -13,29 +13,13 @@ title: Home
 
 <!-- Navigation Links -->
 <div class="section-links">
-  <a href="#education">Education</a>
   <a href="#publications">Publications</a>
-  <a href="#awards">Awards and Scholarships</a>
   <a href="#teaching-experience">Teaching Experience</a>
-  <a href="#mentorship">Mentorship and Project Involvement</a>
+  <a href="#mentorship">Mentorship and Projects</a>
+  <a href="#awards">Awards and Scholarships</a>
 </div>
 
 <!-- Sections -->
-
-## Education
-<a id="education"></a>
-
-### University of Washington, Seattle
-**Ph.D. in Mathematics** (Sep. 2021 - Present)  
-*Advisor: [Christopher Hoffman](https://sites.math.washington.edu/~hoffman/)*
-
-### Washington University in St. Louis
-**A.M. in Mathematics** (Sep. 2019 - May 2021)
-
-### Stony Brook University
-**B.S. in Mathematics, Applied Mathematics and Statistics, Minor in Computer Science** (Feb. 2015 - Dec. 2018)
-
----
 
 ## Publications
 <a id="publications"></a>
@@ -50,26 +34,6 @@ title: Home
 3. **Robert Hough and Hyojeong Son**  
    ["The Spectrum of the Abelian Sandpile Model"](https://arxiv.org/abs/1905.07015)  
    *Mathematics of Computation*, 90(327), pp. 441–469 (2020)
-
----
-
-## Awards and Scholarships
-<a id="awards"></a>
-
-- **Lisa Tanzi and Charles Egerton Endowed Graduate Fellowship** (2024)  
-  Awarded by the University of Washington Department of Mathematics.
-
-- **Summer Math Scholarship** (2018)  
-  Awarded by the Stony Brook University Mathematics Department; covered two semesters of tuition.
-
-- **Undergraduate Recognition Award for Academic Excellence** (2018)  
-  Awarded by Stony Brook University; university-wide recognition for outstanding academic accomplishments.
-
-- **Director of the IT Promotion Center Award** (2017)  
-  Awarded to the top three student presenters at the World IT Show in South Korea.
-
-- **Academic Excellence Scholarships** (2015–2017)  
-  Awarded by Stony Brook University; merit-based scholarship covering three years of tuition.
 
 ---
 
@@ -96,5 +60,22 @@ Mentored undergraduates on projects involving voting data, map analysis, and eco
 ### Graduate Student-Led Reading Program, WashU (Spring 2020)
 Organized and led a reading group for math undergraduates, focusing on sandpiles.
 
+---
 
+## Awards and Scholarships
+<a id="awards"></a>
 
+- **Lisa Tanzi and Charles Egerton Endowed Graduate Fellowship** (2024)  
+  Awarded by the University of Washington Department of Mathematics.
+
+- **Summer Math Scholarship** (2018)  
+  Awarded by the Stony Brook University Mathematics Department; covered two semesters of tuition.
+
+- **Undergraduate Recognition Award for Academic Excellence** (2018)  
+  Awarded by Stony Brook University; university-wide recognition for outstanding academic accomplishments.
+
+- **Director of the IT Promotion Center Award** (2017)  
+  Awarded to the top three student presenters at the World IT Show in South Korea.
+
+- **Academic Excellence Scholarships** (2015–2017)  
+  Awarded by Stony Brook University; merit-based scholarship covering three years of tuition.
