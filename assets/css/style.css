@@ -17,38 +17,50 @@ body {
 }
 
 header {
-  background: #35424a;
-  color: #ffffff;
+  background: #ffffff; /* Changed header background to white */
+  color: #000000;
   padding: 20px 0;
   border-bottom: #e8491d 3px solid;
 }
 
 header a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 16px;
+}
+
+header h1 {
+  font-size: 36px; /* Made your name larger */
+  margin: 0;
+}
+
+header h1 a {
+  color: #007FFF; /* Your name in color #007FFF */
 }
 
 header ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex; /* To align items horizontally */
 }
 
 header li {
-  display: inline;
-  padding: 0 20px;
+  margin-left: 20px; /* Space between navigation items */
 }
 
 header nav {
-  float: right;
-  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  color: #17B169; /* Navigation links in color #17B169 */
+  font-size: 20px;
 }
 
 header .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -109,16 +121,20 @@ footer {
 @media(max-width: 768px) {
   header .container {
     flex-direction: column;
+    text-align: center;
   }
 
   header nav {
-    float: none;
+    margin-top: 10px;
+  }
+
+  header li {
+    margin-left: 0;
     margin-top: 10px;
   }
 
   .intro {
     flex-direction: column;
-    text-align: center;
   }
 
   .intro img {
