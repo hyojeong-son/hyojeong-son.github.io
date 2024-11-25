@@ -56,10 +56,10 @@ Math 395 (Probability II): Spring 2024, Winter 2025
 <a id="mentorship"></a>
 
 🧩 Washington Experimental Mathematics Lab (Spring 2024)  
-Mentored undergraduates on projects involving voting data, map analysis, and ecological inference in the Yakima Valley area.
+-Mentored undergraduates on projects involving voting data, map analysis, and ecological inference in the Yakima Valley area.
 
 🧩 Graduate Student-Led Reading Program, WashU (Spring 2020)  
-Organized and led a reading group for math undergraduates, focusing on sandpiles.
+-Organized and led a reading group for math undergraduates, focusing on sandpiles.
 
 ---
 
@@ -70,13 +70,13 @@ Organized and led a reading group for math undergraduates, focusing on sandpiles
   -Awarded by the University of Washington Department of Mathematics.
 
 - Summer Math Scholarship (2018)  
-  Awarded by the Stony Brook University Mathematics Department; covered two semesters of tuition.
+  -Awarded by the Stony Brook University Mathematics Department; covered two semesters of tuition.
 
 - Undergraduate Recognition Award for Academic Excellence (2018)  
-  Awarded by Stony Brook University; university-wide recognition for outstanding academic accomplishments.
+  -Awarded by Stony Brook University; university-wide recognition for outstanding academic accomplishments.
 
 - Director of the IT Promotion Center Award (2017)  
-  Awarded to the top three student presenters at the World IT Show in South Korea.
+  -Awarded to the top three student presenters at the World IT Show in South Korea.
 
 - Academic Excellence Scholarships (2015–2017)  
-  Awarded by Stony Brook University; merit-based scholarship covering three years of tuition.
+  -Awarded by Stony Brook University; merit-based scholarship covering three years of tuition.
