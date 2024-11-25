@@ -18,9 +18,6 @@ title: Home
 ## Publications
 <a id="publications"></a>
 
-- 📝 **A relation between isoperimetry and total variation decay with applications to graphs of non-negative Ollivier-Ricci curvature**  
-  😊 T. Hutchcroft and I. Lopez
-
 - 📝 **Activated Random Walks on ℤ with Critical Particle Density**  
   😊 Madeline Brown, Christopher Hoffman, and Hyojeong Son  
   [Link to arXiv](https://arxiv.org/abs/2411.07609) (2024+)
