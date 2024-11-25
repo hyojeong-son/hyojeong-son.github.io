@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-  width: 90%;
-  max-width: 1200px;
+  width: 98%; /* Increased width to make margins narrower */
+  max-width: 1400px; /* Increased max-width */
   margin: auto;
   overflow: hidden;
 }
@@ -65,7 +65,7 @@ header nav a {
 /* Introduction Section */
 .intro {
   display: flex;
-  align-items: flex-start; /* Align items to the top */
+  align-items: flex-start;
   margin-top: 30px;
 }
 
@@ -75,8 +75,8 @@ header nav a {
 }
 
 .intro img {
-  width: 200px; /* Increased size */
-  height: 200px; /* Ensure it's square */
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   margin-left: 20px;
 }
@@ -88,7 +88,7 @@ header nav a {
 
 .section-links a {
   margin-right: 20px;
-  color: #007FFF; /* Azure blue color matching your name */
+  color: #007FFF;
   text-decoration: none;
   font-size: 18px;
 }
@@ -97,13 +97,20 @@ header nav a {
   text-decoration: underline;
 }
 
+/* Main Content Styles */
 main h2 {
   color: #35424a;
   margin-top: 30px;
   font-size: 24px;
 }
 
-main p {
+main h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+main p,
+main li {
   font-size: 16px;
 }
 
