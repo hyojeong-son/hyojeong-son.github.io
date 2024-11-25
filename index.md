@@ -31,7 +31,7 @@ Annals of Probability, 49(2), pp. 671–731 (2021)
 
 📝 [The Spectrum of the Abelian Sandpile Model](https://arxiv.org/abs/1905.07015)  
 😊 Robert Hough and Hyojeong Son  
-Mathematics of Computation, 90(327), pp. 441–469 (2020)
+Mathematics of Computation, 90(327), pp. 441–469 (2021)
 
 ---
 
