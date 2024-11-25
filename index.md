@@ -6,34 +6,34 @@ title: Home
 <!-- Introduction Section -->
 <div class="intro">
   <p>
-    Hello! I'm <strong>Hyojeong</strong>, a fourth-year graduate student in the <a href="https://math.washington.edu" target="_blank">Mathematics Department</a> at the University of Washington, Seattle, working under <a href="https://sites.math.washington.edu/~hoffman/" target="_blank">Professor Christopher Hoffman</a>. I specialize in discrete probability, focusing on particle models like activated random walks and sandpiles. Additionally, I explore stable matching problems, investigating the number of possible matchings based on different preference structures. Welcome to my personal webpage! You can reach me at <a href="mailto:hjson@math.washington.edu">hjson@math.washington.edu</a>, and my office is Padelford PDL C-8K.
+    Hello! I'm Hyojeong, a fourth-year graduate student in the <a href="https://math.washington.edu" target="_blank">Mathematics Department</a> at the University of Washington, Seattle, working under <a href="https://sites.math.washington.edu/~hoffman/" target="_blank">Professor Christopher Hoffman</a>. I specialize in discrete probability, focusing on particle models like activated random walks and sandpiles. Additionally, I explore stable matching problems, investigating the number of possible matchings based on different preference structures. Welcome to my personal webpage! You can reach me at <a href="mailto:hjson@math.washington.edu">hjson@math.washington.edu</a>, and my office is Padelford PDL C-8K.
   </p>
   <img src="/assets/files/profile.jpeg" alt="Profile Picture">
 </div>
 
-<!-- Navigation Links -->
-<div class="section-links">
-  <a href="#publications">Publications</a>
-  <a href="#teaching-experience">Teaching Experience</a>
-  <a href="#mentorship">Mentorship and Projects</a>
-  <a href="#awards">Awards and Scholarships</a>
-</div>
+<!-- Removed Navigation Buttons -->
 
 <!-- Sections -->
 
 ## Publications
 <a id="publications"></a>
 
-1. **Madeline Brown, Christopher Hoffman, and Hyojeong Son**  
-   ["Activated Random Walks on ℤ with Critical Particle Density"](https://arxiv.org/abs/2411.07609) (2024+)
+- 📝 **A relation between isoperimetry and total variation decay with applications to graphs of non-negative Ollivier-Ricci curvature**  
+  😊 T. Hutchcroft and I. Lopez
 
-2. **Robert Hough and Hyojeong Son**  
-   ["Cut-off for Sandpiles on Tiling Graphs"](https://arxiv.org/abs/1902.04174)  
-   *Annals of Probability*, 49(2), pp. 671–731 (2021)
+- 📝 **Activated Random Walks on ℤ with Critical Particle Density**  
+  😊 Madeline Brown, Christopher Hoffman, and Hyojeong Son  
+  [Link to arXiv](https://arxiv.org/abs/2411.07609) (2024+)
 
-3. **Robert Hough and Hyojeong Son**  
-   ["The Spectrum of the Abelian Sandpile Model"](https://arxiv.org/abs/1905.07015)  
-   *Mathematics of Computation*, 90(327), pp. 441–469 (2020)
+- 📝 **Cut-off for Sandpiles on Tiling Graphs**  
+  😊 Robert Hough and Hyojeong Son  
+  *Annals of Probability*, 49(2), pp. 671–731 (2021)  
+  [Link to arXiv](https://arxiv.org/abs/1902.04174)
+
+- 📝 **The Spectrum of the Abelian Sandpile Model**  
+  😊 Robert Hough and Hyojeong Son  
+  *Mathematics of Computation*, 90(327), pp. 441–469 (2020)  
+  [Link to arXiv](https://arxiv.org/abs/1905.07015)
 
 ---
 
