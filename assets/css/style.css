@@ -99,3 +99,22 @@ ul.tight li{margin:.35rem 0}
 /* optional: tighten wrapping a bit on the course column */
 .table td:nth-child(1){ padding-right: 16px; }
 
+
+/* Align name (H1) with the top of the photo */
+.hero{ align-items:start; }          /* was: center */
+.hero h1{ margin-top: 0; }
+
+/* Teaching: make the role label line up with the Course column */
+.teach-block{
+  display:grid;
+  grid-template-columns: var(--teach-course-col) var(--teach-term-col);
+  margin: 1.2rem 0 .4rem;
+}
+.teach-block .role-label{
+  grid-column: 1 / 2;
+  font-weight: 700;
+  margin: 0 0 .4rem 0;
+}
+.teach-block .table{ grid-column: 1 / -1; }
+
+
