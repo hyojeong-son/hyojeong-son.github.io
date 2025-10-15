@@ -38,12 +38,12 @@ title: Home
     <div class="pub-venue">Preprint, 2025</div>
   </li>
   <li class="pubcard">
-    <div class="pub-title"><a href="{{ '/assets/files/local_density.pdf' | relative_url }}" target="_blank" rel="noopener">Local Density of Activated Random Walk on $$\\mathbb{Z}$$</a></div>
+    <div class="pub-title"><a href="{{ '/assets/files/local_density.pdf' | relative_url }}" target="_blank" rel="noopener">Local Density of Activated Random Walk on $\mathbb{Z}$</a></div>
     <div class="pub-authors">Christopher Hoffman, Jacob Richey, and Hyojeong Son</div>
     <div class="pub-venue">Preprint, 2025</div>
   </li>
   <li class="pubcard">
-    <div class="pub-title"><a href="{{ '/assets/files/supercritical.pdf' | relative_url }}" target="_blank" rel="noopener">Supercritical Activated Random Walk on $$\\mathbb{Z}$$ is Explosive</a></div>
+    <div class="pub-title"><a href="{{ '/assets/files/supercritical.pdf' | relative_url }}" target="_blank" rel="noopener">Supercritical Activated Random Walk on $\mathbb{Z}$ is Explosive</a></div>
     <div class="pub-authors">Madeline Brown, Christopher Hoffman, and Hyojeong Son</div>
     <div class="pub-venue">Submitted to the <em>Annals of Applied Probability</em>, 2024</div>
   </li>
@@ -174,3 +174,11 @@ title: Home
   <li><strong>2017.</strong> Director of the IT Promotion Center Award — World IT Show (KR).</li>
   <li><strong>2015–2017.</strong> Academic Excellence Scholarships — Stony Brook University.</li>
 </ul>
+
+
+<script>
+  window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
+</script>
+<script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
