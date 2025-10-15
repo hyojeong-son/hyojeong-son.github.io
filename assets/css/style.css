@@ -118,3 +118,5 @@ ul.tight li{margin:.35rem 0}
 .teach-block .table{ grid-column: 1 / -1; }
 
 
+/* revert hero alignment to the previous centered look */
+.hero{ align-items: center; }
