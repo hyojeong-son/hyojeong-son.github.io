@@ -1,16 +1,14 @@
 /* assets/css/style.css */
-/* Professional, simple-yet-stylish single-page styles with refined components. */
+/* Professional, simple, readable. No chips; title-only links; card-style publications; no section accents. */
 
-/* --- palette --- */
+/* Palette */
 :root{
-  --bg:#fbfbfd;               /* page background */
-  --surface:#ffffff;          /* content background */
-  --text:#0f172a;             /* slate-900 */
-  --muted:#475569;            /* slate-600 */
-  --rule:#e5e7eb;             /* divider */
-  --accent:#2563eb;           /* sapphire blue (primary accent) */
-  --link:var(--accent);
-  --selection:#dbeafe;        /* selection highlight */
+  --bg:#fbfbfd;
+  --surface:#ffffff;
+  --text:#0f172a;
+  --muted:#475569;
+  --rule:#e5e7eb;
+  --accent:#2563eb;     /* link color */
   --maxw:880px;
   --radius:12px;
   --shadow-sm:0 1px 2px rgba(2,6,23,.06);
@@ -20,17 +18,12 @@
 html,body{margin:0;padding:0}
 body{
   font-family:"Roboto",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
-  color:var(--text);
-  background:var(--bg);
-  line-height:1.7;
-  font-size:16px;
-  -webkit-font-smoothing:antialiased;
-  text-rendering:optimizeLegibility;
+  color:var(--text); background:var(--bg);
+  line-height:1.7; font-size:16px; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
 }
 
 .container{
-  width:92%;
-  max-width:var(--maxw);
+  width:92%; max-width:var(--maxw);
   margin:32px auto 80px;
   background:var(--surface);
   border:1px solid var(--rule);
@@ -39,104 +32,58 @@ body{
   box-shadow:var(--shadow-sm);
 }
 
-/* headings */
+/* Headings (no accent line) */
 h1{font-size:2rem;font-weight:800;margin:0 0 .25rem;letter-spacing:-.01em}
-h2{font-size:1.35rem;font-weight:800;margin:2.2rem 0 .9rem;letter-spacing:-.01em;position:relative}
-h2::after{
-  content:"";
-  display:block;
-  width:44px;height:2px;margin-top:8px;
-  background:linear-gradient(90deg,var(--accent),transparent 75%);
-}
+h2{font-size:1.35rem;font-weight:800;margin:2.2rem 0 .9rem;letter-spacing:-.01em}
 h3{font-size:1.05rem;font-weight:700;margin:0 0 .25rem}
 hr{border:none;border-top:1px solid var(--rule);margin:22px 0}
 
-/* links */
-a{color:var(--link);text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1.25px}
+/* Links */
+a{color:var(--accent);text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1.25px}
 a:hover{text-decoration-thickness:2px}
 a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
 
-/* intro */
+/* Intro / lede */
 .intro{margin:.35rem 0 1rem}
 .intro p{margin:.25rem 0}
 .lede{color:var(--muted);margin:.2rem 0 .6rem}
 
-/* kill any leftover tabs/quicklinks */
+/* Hide any leftover quicklinks/tabs */
 .quicklinks{display:none!important}
 
-/* hero (profile picture + heading) */
+/* Hero with profile photo */
 .hero{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;margin:6px 0 10px}
 .hero img{width:200px;height:200px;object-fit:cover;border-radius:10px;box-shadow:var(--shadow-sm);border:1px solid var(--rule)}
 @media (max-width:720px){ .hero{grid-template-columns:1fr} .hero img{width:160px;height:160px} }
 
-/* small meta text */
-.meta{color:var(--muted);font-size:.95em}
-
-/* chips (statuses, years, terms) */
-.chips{display:flex;flex-wrap:wrap;gap:6px}
-.chip{
-  display:inline-block;
-  padding:2px 8px;
-  border:1px solid var(--rule);
-  border-radius:999px;
-  background:#f8fafc;
-  font-size:.82em;
-  color:#0f172a;
-}
-.chip.primary{border-color:rgba(37,99,235,.18);background:rgba(37,99,235,.08);color:#1d4ed8}
-.chip.muted{background:#f1f5f9;color:#334155}
-
-/* publication list (Park-style: title → authors → venue) */
-ul.pubs{list-style:disc;padding-left:1.2rem;margin:0}
-ul.pubs li{margin:0 0 1.05rem}
-ul.pubs li::marker{color:var(--accent)}
-.pubs .pub-title{font-weight:600}
-.pubs .pub-authors,.pubs .pub-venue{display:block;margin-top:.15rem}
-.pubs .pub-venue{color:var(--muted);font-size:.95em}
-
-/* card list for Talks / Mentoring — replaces long dash bullets */
-.cards{display:grid;grid-template-columns:1fr;gap:12px;margin:0;padding:0;list-style:none}
-@media (min-width:860px){ .cards{grid-template-columns:1fr 1fr} }
-.card{
+/* Publications — card list (three lines each) */
+.pubcards{list-style:none;padding:0;margin:0}
+.pubcard{
   border:1px solid var(--rule);
   border-radius:10px;
   padding:14px 16px;
   background:var(--surface);
+  margin:0 0 12px;
 }
-.eyebrow{font-size:.8em;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
-.card .meta{margin:.15rem 0}
-.card .desc{margin-top:.25rem}
+.pub-title{font-weight:800;font-size:1.06rem;line-height:1.4}
+.pub-title a{text-decoration:none}         /* title is the link; keep clean */
+.pub-title a:hover{text-decoration:underline}
+.pub-authors{margin-top:.25rem}
+.pub-venue{margin-top:.15rem;color:var(--muted)}
 
-/* teaching table */
-.table{width:100%;border-collapse:collapse;margin:2px 0 0}
+/* Talks, Mentoring, Awards — readable bullets */
+ul.tight{list-style:disc;padding-left:1.2rem;margin:0}
+ul.tight li{margin:.35rem 0}
+
+/* Teaching tables (Course first) */
+.table{width:100%;border-collapse:collapse;margin:.2rem 0 0}
 .table th,.table td{padding:8px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
 .table th{text-align:left;color:var(--muted);font-weight:600;font-size:.9em}
 
-/* awards list */
-.awards{list-style:none;margin:0;padding:0}
-.awards li{display:flex;gap:10px;align-items:flex-start;margin:.4rem 0}
-.awards .year{min-width:56px}
-.awards .txt{line-height:1.55}
-
-/* selection */
-::selection{background:var(--selection)}
-
-/* dark mode */
+/* Dark mode */
 @media (prefers-color-scheme: dark){
   :root{
-    --bg:#0b1220;
-    --surface:#0f172a;
-    --text:#e5e7eb;
-    --muted:#94a3b8;
-    --rule:#1f2937;
-    --accent:#60a5fa;
-    --link:var(--accent);
-    --selection:#1d4ed8;
-    --shadow-sm:none;
+    --bg:#0b1220; --surface:#0f172a; --text:#e5e7eb; --muted:#94a3b8; --rule:#1f2937; --accent:#60a5fa; --shadow-sm:none;
   }
-  .chip{background:#0b1220;border-color:#1f2937;color:#e5e7eb}
-  .chip.muted{background:#0b1220}
+  .container{border-color:#1f2937}
 }
-
-/* optional: change --accent to tweak the vibe
-   Emerald: #059669 | Plum: #7c3aed | Coral: #ea580c */
