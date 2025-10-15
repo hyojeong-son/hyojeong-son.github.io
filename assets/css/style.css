@@ -120,3 +120,22 @@ ul.tight li{margin:.35rem 0}
 
 /* revert hero alignment to the previous centered look */
 .hero{ align-items: center; }
+
+/* CV-style definition lists: date left, details right */
+:root{ --twocol-left: 170px; }                  /* tweak width to taste */
+.twocol{
+  display:grid;
+  grid-template-columns: var(--twocol-left) 1fr;
+  column-gap: 22px;
+  row-gap: 10px;
+  margin:0;
+}
+.twocol dt{ margin:0; color:var(--muted); }
+.twocol dd{ margin:0; }
+.twocol dd .line{ margin-top:2px; }
+
+/* stack nicely on phones */
+@media (max-width: 720px){
+  .twocol{ grid-template-columns: 1fr; }
+  .twocol dt{ font-weight:600; }
+}
