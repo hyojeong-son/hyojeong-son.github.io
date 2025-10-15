@@ -29,7 +29,6 @@ title: Home
 </div>
 
 ---
-
 ## Publications and Preprints
 
 <ul class="pubcards">
@@ -39,12 +38,12 @@ title: Home
     <div class="pub-venue">Preprint, 2025</div>
   </li>
   <li class="pubcard">
-    <div class="pub-title"><a href="{{ '/assets/files/local_density.pdf' | relative_url }}" target="_blank" rel="noopener">Local Density</a></div>
+    <div class="pub-title"><a href="{{ '/assets/files/local_density.pdf' | relative_url }}" target="_blank" rel="noopener">Local Density of Activated Random Walk on $\mathbb Z$</a></div>
     <div class="pub-authors">Christopher Hoffman, Jacob Richey, and Hyojeong Son</div>
     <div class="pub-venue">Preprint, 2025</div>
   </li>
   <li class="pubcard">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2411.07609" target="_blank" rel="noopener">Activated Random Walks on ℤ with Critical Particle Density</a></div>
+    <div class="pub-title"><a href="{{ '/assets/files/supercritical.pdf' | relative_url }}" target="_blank" rel="noopener">Supercritical Activated Random Walk on $\mathbb Z$ is Explosive</a></div>
     <div class="pub-authors">Madeline Brown, Christopher Hoffman, and Hyojeong Son</div>
     <div class="pub-venue">Submitted to the <em>Annals of Applied Probability</em>, 2024</div>
   </li>
@@ -59,6 +58,7 @@ title: Home
     <div class="pub-venue"><em>Mathematics of Computation</em> 90(327), 441–469 (2021)</div>
   </li>
 </ul>
+
 
 ---
 
