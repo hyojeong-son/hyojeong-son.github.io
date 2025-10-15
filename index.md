@@ -12,7 +12,7 @@ title: Home
       <p>
         E-mail: <a href="mailto:hjson@uw.edu">hjson@uw.edu</a>.
         Here is my
-        <a href="{{ '/assets/files/Hyojeong_Son_CV.pdf' | relative_url }}" target="_blank" rel="noopener">CV</a>.
+        <a href="{{ '/assets/files/(Hyojeong Son) CV.pdf' | relative_url }}" target="_blank" rel="noopener">CV</a>.
       </p>
     </div>
 
