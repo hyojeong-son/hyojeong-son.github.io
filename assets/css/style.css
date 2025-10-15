@@ -87,3 +87,15 @@ ul.tight li{margin:.35rem 0}
   }
   .container{border-color:#1f2937}
 }
+
+/* --- Align teaching tables across sections --- */
+:root{
+  --teach-course-col: 66%;
+  --teach-term-col: 34%;
+}
+.table{ table-layout: fixed; }            /* use fixed layout so colgroup widths apply */
+.table col.course{ width: var(--teach-course-col); }
+.table col.term{   width: var(--teach-term-col);  }
+/* optional: tighten wrapping a bit on the course column */
+.table td:nth-child(1){ padding-right: 16px; }
+
