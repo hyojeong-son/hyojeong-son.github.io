@@ -46,17 +46,17 @@ title: Home
   <li class="pubcard">
     <div class="pub-title"><a href="https://arxiv.org/abs/2411.07609" target="_blank" rel="noopener">Activated Random Walks on ℤ with Critical Particle Density</a></div>
     <div class="pub-authors">Madeline Brown, Christopher Hoffman, and Hyojeong Son</div>
-    <div class="pub-venue">Preprint, 2024 (submitted)</div>
+    <div class="pub-venue">Submitted to the <em>Annals of Applied Probability</em>, 2024</div>
   </li>
   <li class="pubcard">
     <div class="pub-title"><a href="https://arxiv.org/abs/1902.04174" target="_blank" rel="noopener">Cut-off for Sandpiles on Tiling Graphs</a></div>
     <div class="pub-authors">Robert Hough and Hyojeong Son</div>
-    <div class="pub-venue">Annals of Probability 49(2), 671–731 (2021)</div>
+    <div class="pub-venue"><em>Annals of Probability</em> 49(2), 671–731 (2021)</div>
   </li>
   <li class="pubcard">
     <div class="pub-title"><a href="https://arxiv.org/abs/1905.07015" target="_blank" rel="noopener">The Spectrum of the Abelian Sandpile Model</a></div>
     <div class="pub-authors">Robert Hough and Hyojeong Son</div>
-    <div class="pub-venue">Mathematics of Computation 90(327), 441–469 (2021)</div>
+    <div class="pub-venue"><em>Mathematics of Computation</em> 90(327), 441–469 (2021)</div>
   </li>
 </ul>
 
@@ -76,39 +76,45 @@ title: Home
 
 ## Teaching
 
-**Instructor, University of Washington**
-<table class="table">
-  <colgroup><col class="course"><col class="term"></colgroup>
-  <thead><tr><th>Course</th><th>Term</th></tr></thead>
-  <tbody>
-    <tr><td>Math 394 (Probability I)</td><td>Summer 2025</td></tr>
-  </tbody>
-</table>
+<div class="teach-block">
+  <div class="role-label">Instructor, University of Washington</div>
+  <table class="table">
+    <colgroup><col class="course"><col class="term"></colgroup>
+    <thead><tr><th>Course</th><th>Term</th></tr></thead>
+    <tbody>
+      <tr><td>Math 394 (Probability I)</td><td>Summer 2025</td></tr>
+    </tbody>
+  </table>
+</div>
 
-**Teaching Assistant, University of Washington**
-<table class="table">
-  <colgroup><col class="course"><col class="term"></colgroup>
-  <thead><tr><th>Course</th><th>Term(s)</th></tr></thead>
-  <tbody>
-    <tr><td>Math 491 (Stochastic Processes and Option Pricing)</td><td>Fall 2025</td></tr>
-    <tr><td>Math 395 (Probability II)</td><td>Winter 2025, Spring 2024</td></tr>
-    <tr><td>Math 394 (Probability I)</td><td>Spring 2025, Winter 2024, Fall 2024</td></tr>
-    <tr><td>Math 207 (Differential Equations)</td><td>Winter 2023, Spring 2023</td></tr>
-    <tr><td>Math 126 (Calculus III)</td><td>Spring 2022, Summer 2022</td></tr>
-    <tr><td>Math 125 (Calculus II)</td><td>Fall 2021, Winter 2022, Fall 2023</td></tr>
-    <tr><td>Math 111 (Algebra)</td><td>Fall 2022</td></tr>
-  </tbody>
-</table>
+<div class="teach-block">
+  <div class="role-label">Teaching Assistant, University of Washington</div>
+  <table class="table">
+    <colgroup><col class="course"><col class="term"></colgroup>
+    <thead><tr><th>Course</th><th>Term(s)</th></tr></thead>
+    <tbody>
+      <tr><td>Math 491 (Stochastic Processes and Option Pricing)</td><td>Fall 2025</td></tr>
+      <tr><td>Math 395 (Probability II)</td><td>Winter 2025, Spring 2024</td></tr>
+      <tr><td>Math 394 (Probability I)</td><td>Spring 2025, Winter 2024, Fall 2024</td></tr>
+      <tr><td>Math 207 (Differential Equations)</td><td>Winter 2023, Spring 2023</td></tr>
+      <tr><td>Math 126 (Calculus III)</td><td>Spring 2022, Summer 2022</td></tr>
+      <tr><td>Math 125 (Calculus II)</td><td>Fall 2021, Winter 2022, Fall 2023</td></tr>
+      <tr><td>Math 111 (Algebra)</td><td>Fall 2022</td></tr>
+    </tbody>
+  </table>
+</div>
 
-**Teaching Assistant, Washington University in St. Louis**
-<table class="table">
-  <colgroup><col class="course"><col class="term"></colgroup>
-  <thead><tr><th>Course</th><th>Term</th></tr></thead>
-  <tbody>
-    <tr><td>Math 131 (Calculus I)</td><td>Fall 2020</td></tr>
-    <tr><td>Math 217 (Differential Equations)</td><td>Spring 2021</td></tr>
-  </tbody>
-</table>
+<div class="teach-block">
+  <div class="role-label">Teaching Assistant, Washington University in St. Louis</div>
+  <table class="table">
+    <colgroup><col class="course"><col class="term"></colgroup>
+    <thead><tr><th>Course</th><th>Term</th></tr></thead>
+    <tbody>
+      <tr><td>Math 131 (Calculus I)</td><td>Fall 2020</td></tr>
+      <tr><td>Math 217 (Differential Equations)</td><td>Spring 2021</td></tr>
+    </tbody>
+  </table>
+</div>
 
 ---
 
