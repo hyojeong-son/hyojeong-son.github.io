@@ -7,13 +7,27 @@ title: Home
   <img src="{{ '/assets/files/profile.jpeg' | relative_url }}" alt="Portrait of Hyojeong Son">
   <div>
     <h1>Hyojeong Son</h1>
-    <p class="lede">Ph.D. candidate in discrete probability (activated random walks, sandpiles); also stable matching.</p>
+
     <div class="intro">
-      <p>E-mail: <a href="mailto:hjson@uw.edu">hjson@uw.edu</a>.
-      Here is my <a href="{{ '/assets/files/Hyojeong_Son_CV.pdf' | relative_url }}" target="_blank" rel="noopener">CV</a>.</p>
+      <p>
+        E-mail: <a href="mailto:hjson@uw.edu">hjson@uw.edu</a>.
+        Here is my
+        <a href="{{ '/assets/files/Hyojeong_Son_CV.pdf' | relative_url }}" target="_blank" rel="noopener">CV</a>.
+      </p>
     </div>
+
+    <p>
+      I’m a fifth-year graduate student in mathematics at the
+      <a href="https://math.washington.edu" target="_blank" rel="noopener">University of Washington</a>.
+      I study probability, combinatorics, and threshold phenomena in random discrete structures,
+      advised by
+      <a href="https://sites.math.washington.edu/~hoffman/" target="_blank" rel="noopener">Christopher Hoffman</a>.
+      Previously, I completed a B.S. in mathematics and statistics at Stony Brook University and an M.A. in mathematics at Washington University in St. Louis, where I was advised by
+      <a href="https://www.math.wustl.edu/~feres/" target="_blank" rel="noopener">Renato Feres</a>.
+    </p>
   </div>
 </div>
+
 
 ---
 
