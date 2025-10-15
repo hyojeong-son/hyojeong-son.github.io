@@ -1,29 +1,17 @@
 <!-- _layouts/default.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>{{ page.title }} | {{ site.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Include Nunito font from Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Roboto: simple, Google-Sites-like sans-serif -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <header>
-    <div class="container header-content">
-      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-      <nav>
-        <ul>
-          <li><a href="{{ '/assets/files/Hyojeong_Son_CV.pdf' | relative_url }}" target="_blank">CV</a></li>
-          <li><a href="{{ '/simulations/' | relative_url }}">Simulations</a></li>
-          <li><a href="{{ '/pictures/' | relative_url }}">Pictures</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
   <main class="container">
     {{ content }}
   </main>
