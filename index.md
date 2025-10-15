@@ -60,11 +60,11 @@ title: Home
 </ul>
 
 ---
-
 ## Teaching
 
 **Instructor, University of Washington**
 <table class="table">
+  <colgroup><col class="course"><col class="term"></colgroup>
   <thead><tr><th>Course</th><th>Term</th></tr></thead>
   <tbody>
     <tr><td>Math 394 (Probability I)</td><td>Summer 2025</td></tr>
@@ -73,6 +73,7 @@ title: Home
 
 **Teaching Assistant, University of Washington**
 <table class="table">
+  <colgroup><col class="course"><col class="term"></colgroup>
   <thead><tr><th>Course</th><th>Term(s)</th></tr></thead>
   <tbody>
     <tr><td>Math 491 (Stochastic Processes and Option Pricing)</td><td>Fall 2025</td></tr>
@@ -87,12 +88,14 @@ title: Home
 
 **Teaching Assistant, Washington University in St. Louis**
 <table class="table">
+  <colgroup><col class="course"><col class="term"></colgroup>
   <thead><tr><th>Course</th><th>Term</th></tr></thead>
   <tbody>
     <tr><td>Math 131 (Calculus I)</td><td>Fall 2020</td></tr>
     <tr><td>Math 217 (Differential Equations)</td><td>Spring 2021</td></tr>
   </tbody>
 </table>
+
 
 ---
 
