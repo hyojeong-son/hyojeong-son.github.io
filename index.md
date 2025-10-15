@@ -64,13 +64,37 @@ title: Home
 
 ## Talks
 
-<ul class="tight">
-  <li><strong>CRM–PIMS Summer School in Probability</strong>, Vancouver, Canada (June 2025). <em>Self-Organized Criticality</em>.</li>
-  <li><strong>Cornell Probability Seminar</strong>, Ithaca, NY (March 2025). <em>Self-Organized Criticality</em>.</li>
-  <li><strong>UW Graduate Student Analysis Seminar</strong>, Seattle, WA (February 2025). <em>Stable Matching</em>.</li>
-  <li><strong>UW Graduate Student Analysis Seminar</strong>, Seattle, WA (December 2024). <em>Universality for Self-Organized Criticality</em>.</li>
-  <li><strong>UW General Examination Talk</strong>, Seattle, WA (September 2024). <em>Stable Matching</em>.</li>
-</ul>
+<dl class="twocol">
+  <dt>June 2025</dt>
+  <dd>
+    CRM–PIMS Summer School in Probability, Vancouver, Canada
+    <div class="line"><em>Self-Organized Criticality</em></div>
+  </dd>
+
+  <dt>March 2025</dt>
+  <dd>
+    Cornell Probability Seminar, Ithaca, NY
+    <div class="line"><em>Self-Organized Criticality</em></div>
+  </dd>
+
+  <dt>February 2025</dt>
+  <dd>
+    UW Graduate Student Analysis Seminar, Seattle, WA
+    <div class="line"><em>Stable Matching</em></div>
+  </dd>
+
+  <dt>December 2024</dt>
+  <dd>
+    UW Graduate Student Analysis Seminar, Seattle, WA
+    <div class="line"><em>Universality for Self-Organized Criticality</em></div>
+  </dd>
+
+  <dt>September 2024</dt>
+  <dd>
+    UW General Examination Talk, Seattle, WA
+    <div class="line"><em>Stable Matching</em></div>
+  </dd>
+</dl>
 
 ---
 
@@ -117,14 +141,27 @@ title: Home
 </div>
 
 ---
-
 ## Undergrad Mentoring
 
-<ul class="tight">
-  <li><strong>WXML, UW</strong> (Winter 2025–Present). Mentoring undergraduates estimating critical exponents for activated random walks on various lattices.</li>
-  <li><strong>WXML, UW</strong> (Spring 2024). Mentored undergraduates on voting data, map analysis, and ecological inference in the Yakima Valley.</li>
-  <li><strong>Graduate Student-Led Reading Program, WashU</strong> (Spring 2021). Led a reading group for mathematics undergraduates focusing on sandpiles.</li>
-</ul>
+<dl class="twocol">
+  <dt>Winter 2025–Present</dt>
+  <dd>
+    Washington Experimental Mathematics Lab (WXML), UW
+    <div class="line">Mentoring undergraduates estimating critical exponents for activated random walks on various lattices.</div>
+  </dd>
+
+  <dt>Spring 2024</dt>
+  <dd>
+    Washington Experimental Mathematics Lab (WXML), UW
+    <div class="line">Mentored undergraduates on projects involving voting data, map analysis, and ecological inference in the Yakima Valley.</div>
+  </dd>
+
+  <dt>Spring 2021</dt>
+  <dd>
+    Graduate Student-Led Reading Program, WashU
+    <div class="line">Led a reading group for mathematics undergraduates focusing on sandpiles.</div>
+  </dd>
+</dl>
 
 ---
 
