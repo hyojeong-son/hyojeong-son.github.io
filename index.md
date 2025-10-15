@@ -16,7 +16,7 @@ title: Home
       </p>
     </div>
 
-    <p>
+    <p class="lede">
       I’m a fifth-year graduate student in mathematics at the
       <a href="https://math.washington.edu" target="_blank" rel="noopener">University of Washington</a>.
       I study probability, combinatorics, and threshold phenomena in random discrete structures,
@@ -27,7 +27,6 @@ title: Home
     </p>
   </div>
 </div>
-
 
 ---
 
@@ -74,6 +73,7 @@ title: Home
 </ul>
 
 ---
+
 ## Teaching
 
 **Instructor, University of Washington**
@@ -109,7 +109,6 @@ title: Home
     <tr><td>Math 217 (Differential Equations)</td><td>Spring 2021</td></tr>
   </tbody>
 </table>
-
 
 ---
 
