@@ -165,15 +165,17 @@ title: Home
 
 ---
 
-## Honors and Awards
+ ## Honors and Awards
 
-<ul class="tight">
-  <li><strong>2024.</strong> Lisa Tanzi and Charles Egerton Endowed Graduate Fellowship — University of Washington Department of Mathematics.</li>
-  <li><strong>2018.</strong> Undergraduate Recognition Award for Academic Excellence — Stony Brook University.</li>
-  <li><strong>2018.</strong> Summer Math Scholarship — Stony Brook University.</li>
-  <li><strong>2017.</strong> Director of the IT Promotion Center Award — World IT Show (KR).</li>
-  <li><strong>2015–2017.</strong> Academic Excellence Scholarships — Stony Brook University.</li>
-</ul>
+ <ul class="tight">
+   <li><strong>2025.</strong> Excellence in Teaching — University of Washington Department of Mathematics.</li>
+   <li><strong>2024.</strong> Lisa Tanzi and Charles Egerton Endowed Graduate Fellowship — University of Washington Department of Mathematics.</li>
+   <li><strong>2018.</strong> Undergraduate Recognition Award for Academic Excellence — Stony Brook University.</li>
+   <li><strong>2018.</strong> Summer Math Scholarship — Stony Brook University.</li>
+   <li><strong>2017.</strong> Director of the IT Promotion Center Award — World IT Show (KR).</li>
+   <li><strong>2015–2017.</strong> Academic Excellence Scholarships — Stony Brook University.</li>
+ </ul>
+
 
 
 <script>
