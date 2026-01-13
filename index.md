@@ -68,9 +68,9 @@ title: Home
     <div class="pub-venue">Preprint, 2026</div>
   </li>
   <li class="pubcard">
-    <div class="pub-title"><a href="{{ '/assets/files/super_critical.pdf' | relative_url }}" target="_blank" rel="noopener">Supercritical Activated Random Walk on $\mathbb{Z}$ is Explosive</a></div>
+    <div class="pub-title"><a href="https://arxiv.org/abs/2411.07609" target="_blank" rel="noopener">Supercritical Activated Random Walk on $\mathbb{Z}$ is Explosive</a></div>
     <div class="pub-authors">Madeline Brown, Christopher Hoffman, and Hyojeong Son</div>
-    <div class="pub-venue">Submitted to the <em>Annals of Applied Probability</em>, 2024</div>
+    <div class="pub-venue">Submitted</div>
   </li>
   <li class="pubcard">
     <div class="pub-title"><a href="https://arxiv.org/abs/1902.04174" target="_blank" rel="noopener">Cut-off for Sandpiles on Tiling Graphs</a></div>
