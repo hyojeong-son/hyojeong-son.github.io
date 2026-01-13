@@ -60,12 +60,12 @@ title: Home
   <li class="pubcard">
     <div class="pub-title"><a href="{{ '/assets/files/stable_matchings_correlated_preferences.pdf' | relative_url }}" target="_blank" rel="noopener">Stable Matchings with Correlated Preferences</a></div>
     <div class="pub-authors">Christopher Hoffman, Avi Levy, Elchanan Mossel, and Hyojeong Son</div>
-    <div class="pub-venue">Preprint, 2025</div>
+    <div class="pub-venue">In preparation, 2026</div>
   </li>
   <li class="pubcard">
-    <div class="pub-title"><a href="{{ '/assets/files/local_density.pdf' | relative_url }}" target="_blank" rel="noopener">Local Density of Activated Random Walk on $\mathbb{Z}$</a></div>
+    <div class="pub-title"><a href="https://arxiv.org/abs/2601.07816" target="_blank" rel="noopener">Local Density of Activated Random Walk on $\mathbb{Z}$</a></div>
     <div class="pub-authors">Christopher Hoffman, Jacob Richey, and Hyojeong Son</div>
-    <div class="pub-venue">Preprint, 2025</div>
+    <div class="pub-venue">Preprint, 2026</div>
   </li>
   <li class="pubcard">
     <div class="pub-title"><a href="{{ '/assets/files/super_critical.pdf' | relative_url }}" target="_blank" rel="noopener">Supercritical Activated Random Walk on $\mathbb{Z}$ is Explosive</a></div>
