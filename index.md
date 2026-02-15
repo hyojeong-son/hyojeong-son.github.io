@@ -89,6 +89,12 @@ title: Home
 ## Talks
 
 <dl class="twocol">
+  <dt>February 2026</dt>
+  <dd>
+    UW Probability Seminar, Seattle, WA
+    <div class="line"><em>Local density of point-source activated random walk on $\mathbb Z$</em></div>
+  </dd>
+
   <dt>June 2025</dt>
   <dd>
     CRM–PIMS Summer School in Probability, Vancouver, Canada
