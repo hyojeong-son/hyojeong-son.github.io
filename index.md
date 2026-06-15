@@ -17,11 +17,13 @@ title: Home
     </div>
 
     <p class="lede">
-      I’m a fifth-year graduate student in mathematics at the
-      <a href="https://math.washington.edu" target="_blank" rel="noopener">University of Washington</a>.
-      I study probability, combinatorics, and threshold phenomena in random discrete structures,
-      advised by
+      I am a postdoctoral fellow in mathematics at the University of British Columbia in Vancouver, mentored by
+      <a href="https://personal.math.ubc.ca/~angel/index.php" target="_blank" rel="noopener">Omer Angel</a>
+      and
+      <a href="https://personal.math.ubc.ca/~jhermon/" target="_blank" rel="noopener">Jonathan Hermon</a>.
+      I received my Ph.D. in mathematics from the University of Washington in 2026, where I was advised by
       <a href="https://sites.math.washington.edu/~hoffman/" target="_blank" rel="noopener">Christopher Hoffman</a>.
+      I work in probability theory, with interests in interacting particle systems, stable matching problems, and pattern-avoiding permutations.
       Previously, I completed a B.S. in mathematics and applied mathematics & statistics at Stony Brook University and an A.M. in mathematics at Washington University in St. Louis, where I was advised by
       <a href="https://www.math.wustl.edu/~feres/" target="_blank" rel="noopener">Renato Feres</a>.
     </p>
@@ -155,6 +157,7 @@ title: Home
       <tr><td>Math 395 (Probability II)</td><td>Spring 2024, Winter 2025</td></tr>
       <tr><td>Math 491 (Stochastic Processes and Option Pricing)</td><td>Fall 2025</td></tr>
       <tr><td>Math 524 (Graduate Real Analysis I)</td><td>Winter 2026</td></tr>
+      <tr><td>Math 525 (Graduate Real Analysis II)</td><td>Spring 2026</td></tr>
     </tbody>
   </table>
 </div>
