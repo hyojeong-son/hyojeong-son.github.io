@@ -30,6 +30,7 @@ title: Home
 </div>
 
 <nav class="section-nav" aria-label="Page sections">
+  <span class="nav-label">On this page:</span>
   <a href="#academic-positions">Academic Positions</a>
   <a href="#research-interests">Research</a>
   <a href="#publications">Publications</a>
@@ -138,29 +139,16 @@ title: Home
 
 <h2 id="teaching">Teaching</h2>
 
-<table class="table teaching-table">
-  <colgroup>
-    <col class="role">
-    <col class="course">
-    <col class="term">
-    <col class="institution">
-  </colgroup>
-  <thead><tr><th>Role</th><th>Course</th><th>Term(s)</th><th>Institution</th></tr></thead>
-  <tbody>
-    <tr><td>Instructor</td><td>Math 394 (Probability I)</td><td>Summer 2025</td><td>UW</td></tr>
-    <tr><td>Teaching Assistant</td><td>Math 111 (Algebra)</td><td>Fall 2022</td><td>UW</td></tr>
-    <tr><td>Teaching Assistant</td><td>Math 125 (Calculus II)</td><td>Fall 2021, Winter 2022, Fall 2023</td><td>UW</td></tr>
-    <tr><td>Teaching Assistant</td><td>Math 126 (Calculus III)</td><td>Spring 2022, Summer 2022</td><td>UW</td></tr>
-    <tr><td>Teaching Assistant</td><td>Math 207 (Differential Equations)</td><td>Winter 2023, Spring 2023</td><td>UW</td></tr>
-    <tr><td>Teaching Assistant</td><td>Math 394 (Probability I)</td><td>Winter 2024, Fall 2024, Spring 2025</td><td>UW</td></tr>
-    <tr><td>Teaching Assistant</td><td>Math 395 (Probability II)</td><td>Spring 2024, Winter 2025</td><td>UW</td></tr>
-    <tr><td>Teaching Assistant</td><td>Math 491 (Stochastic Processes and Option Pricing)</td><td>Fall 2025</td><td>UW</td></tr>
-    <tr><td>Teaching Assistant</td><td>Math 524 (Graduate Real Analysis I)</td><td>Winter 2026</td><td>UW</td></tr>
-    <tr><td>Teaching Assistant</td><td>Math 525 (Graduate Real Analysis II)</td><td>Spring 2026</td><td>UW</td></tr>
-    <tr><td>Teaching Assistant</td><td>Math 131 (Calculus I)</td><td>Fall 2020</td><td>WashU</td></tr>
-    <tr><td>Teaching Assistant</td><td>Math 217 (Differential Equations)</td><td>Spring 2021</td><td>WashU</td></tr>
-  </tbody>
-</table>
+<div class="teaching-compact">
+  <div class="teaching-institution">University of Washington</div>
+  <dl class="teaching-list">
+    <dt>Instructor</dt>
+    <dd>Math 394 (Probability I), Summer 2025.</dd>
+
+    <dt>Teaching Assistant</dt>
+    <dd>Math 111 (Algebra); Math 125 (Calculus II); Math 126 (Calculus III); Math 207 (Differential Equations); Math 394 (Probability I); Math 395 (Probability II); Math 491 (Stochastic Processes and Option Pricing); Math 524 (Graduate Real Analysis I); Math 525 (Graduate Real Analysis II).</dd>
+  </dl>
+</div>
 
 ---
 
@@ -217,7 +205,7 @@ title: Home
 <ul class="tight">
   <li><strong>2025.</strong> Excellence in Teaching — Department of Mathematics, University of Washington.</li>
   <li><strong>2024.</strong> Lisa Tanzi and Charles Egerton Endowed Graduate Fellowship — Department of Mathematics, University of Washington.</li>
-  <li><strong>2015–2018.</strong> Undergraduate awards: Academic Excellence Scholarships; Undergraduate Recognition Award; Summer Math Scholarship — Stony Brook University.</li>
+  <li><strong>2018.</strong> Undergraduate Recognition Award, Academic Excellence — Stony Brook University.</li>
 </ul>
 
 <script>
