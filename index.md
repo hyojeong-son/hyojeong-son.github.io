@@ -140,7 +140,7 @@ title: Home
   <div class="teaching-institution">University of Washington</div>
   <dl class="teaching-list">
     <dt>Instructor</dt>
-    <dd>Math 394 (Probability I), Summer 2025.</dd>
+    <dd>Math 394 (Probability I).</dd>
 
     <dt>Teaching Assistant</dt>
     <dd>Math 111 (Algebra); Math 125 (Calculus II); Math 126 (Calculus III); Math 207 (Differential Equations); Math 394 (Probability I); Math 395 (Probability II); Math 491 (Stochastic Processes and Option Pricing); Math 524 (Graduate Real Analysis I); Math 525 (Graduate Real Analysis II).</dd>
