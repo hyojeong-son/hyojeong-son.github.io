@@ -5,17 +5,16 @@
 :root{
   --bg:#fbfbfd;
   --surface:#ffffff;
+  --subtle:#f8fafc;
   --text:#0f172a;
   --muted:#475569;
   --rule:#e5e7eb;
   --accent:#2563eb;     /* link color */
-  --maxw:880px;
+  --maxw:940px;
   --radius:12px;
   --shadow-sm:0 1px 2px rgba(2,6,23,.06);
-  --teach-role-col:18%;
-  --teach-course-col:42%;
-  --teach-term-col:26%;
-  --teach-institution-col:14%;
+  --twocol-left:220px;
+  --teaching-left:160px;
 }
 
 *{box-sizing:border-box}
@@ -63,9 +62,21 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius
 .hero h1{margin-top:0}
 
 /* Single-page navigation */
-.section-nav{display:flex;flex-wrap:wrap;gap:.35rem .9rem;margin:1rem 0 1.35rem;font-size:.95rem}
-.section-nav a{color:var(--muted);text-decoration:none}
-.section-nav a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+.section-nav{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:.35rem .85rem;
+  margin:1rem 0 1.35rem;
+  padding:.6rem .75rem;
+  border:1px solid var(--rule);
+  border-radius:10px;
+  background:var(--subtle);
+  font-size:.94rem;
+}
+.section-nav .nav-label{color:var(--muted);font-weight:700;margin-right:.1rem}
+.section-nav a{color:var(--accent);text-decoration:none;font-weight:500}
+.section-nav a:hover{text-decoration:underline;text-underline-offset:2px}
 
 /* Publications: card list */
 .pubcards{list-style:none;padding:0;margin:0}
@@ -86,19 +97,27 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius
 ul.tight{list-style:disc;padding-left:1.2rem;margin:0}
 ul.tight li{margin:.35rem 0}
 
+/* Compact teaching */
+.teaching-compact{margin:.2rem 0 0}
+.teaching-institution{font-weight:700;margin:0 0 .35rem}
+.teaching-list{
+  display:grid;
+  grid-template-columns:var(--teaching-left) 1fr;
+  column-gap:22px;
+  row-gap:8px;
+  margin:0;
+}
+.teaching-list dt{margin:0;color:var(--muted);font-weight:600}
+.teaching-list dd{margin:0}
+
 /* Tables */
 .table{width:100%;border-collapse:collapse;margin:.2rem 0 0;table-layout:fixed}
 .table th,.table td{padding:8px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
 .table th{text-align:left;color:var(--muted);font-weight:600;font-size:.9em}
 .table td:first-child,.table th:first-child{padding-left:0}
 .table td:last-child,.table th:last-child{padding-right:0}
-.teaching-table col.role{width:var(--teach-role-col)}
-.teaching-table col.course{width:var(--teach-course-col)}
-.teaching-table col.term{width:var(--teach-term-col)}
-.teaching-table col.institution{width:var(--teach-institution-col)}
 
 /* CV-style definition lists: date left, details right */
-:root{--twocol-left:170px}
 .twocol{
   display:grid;
   grid-template-columns:var(--twocol-left) 1fr;
@@ -106,7 +125,7 @@ ul.tight li{margin:.35rem 0}
   row-gap:10px;
   margin:0;
 }
-.twocol dt{margin:0;color:var(--muted)}
+.twocol dt{margin:0;color:var(--muted);white-space:nowrap}
 .twocol dd{margin:0}
 .twocol dd .line{margin-top:2px}
 
@@ -117,14 +136,16 @@ ul.tight li{margin:.35rem 0}
   .hero-photo img{width:160px;height:160px}
   .section-nav{gap:.35rem .7rem}
   .twocol{grid-template-columns:1fr}
-  .twocol dt{font-weight:600}
+  .twocol dt{font-weight:600;white-space:normal}
+  .teaching-list{grid-template-columns:1fr;row-gap:2px}
+  .teaching-list dt{margin-top:.45rem}
   .table{font-size:.95rem}
 }
 
 /* Dark mode */
 @media (prefers-color-scheme: dark){
   :root{
-    --bg:#0b1220; --surface:#0f172a; --text:#e5e7eb; --muted:#94a3b8; --rule:#1f2937; --accent:#60a5fa; --shadow-sm:none;
+    --bg:#0b1220; --surface:#0f172a; --subtle:#111827; --text:#e5e7eb; --muted:#94a3b8; --rule:#1f2937; --accent:#60a5fa; --shadow-sm:none;
   }
   .container{border-color:#1f2937}
 }
