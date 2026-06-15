@@ -30,6 +30,18 @@ title: Home
 
 ---
 
+## Academic Positions
+
+<dl class="twocol">
+  <dt>2026–present</dt>
+  <dd>
+    Postdoctoral Fellow in Mathematics, University of British Columbia, Vancouver
+    <div class="line">Mentors: <a href="https://personal.math.ubc.ca/~angel/index.php" target="_blank" rel="noopener">Omer Angel</a> and <a href="https://personal.math.ubc.ca/~jhermon/" target="_blank" rel="noopener">Jonathan Hermon</a></div>
+  </dd>
+</dl>
+
+---
+
 ## Education
 
 <dl class="twocol">
@@ -177,10 +189,10 @@ title: Home
 ## Mentorship
 
 <dl class="twocol">
-  <dt>Winter 2025–Present</dt>
+  <dt>Winter 2025–Spring 2026</dt>
   <dd>
     Washington Experimental Mathematics Lab (WXML), UW
-    <div class="line">Mentoring undergraduates estimating critical exponents for activated random walks on various lattices.</div>
+    <div class="line">Mentored undergraduates estimating critical exponents for activated random walks on various lattices.</div>
   </dd>
 
   <dt>Spring 2024</dt>
