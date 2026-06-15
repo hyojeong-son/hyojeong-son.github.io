@@ -30,7 +30,6 @@ title: Home
 </div>
 
 <nav class="section-nav" aria-label="Page sections">
-  <span class="nav-label">On this page:</span>
   <a href="#academic-positions">Academic Positions</a>
   <a href="#research-interests">Research</a>
   <a href="#publications">Publications</a>
@@ -40,8 +39,6 @@ title: Home
   <a href="#education">Education</a>
   <a href="#awards-honors">Awards</a>
 </nav>
-
----
 
 <h2 id="academic-positions">Academic Positions</h2>
 
