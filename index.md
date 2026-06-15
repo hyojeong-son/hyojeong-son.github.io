@@ -4,8 +4,10 @@ title: Home
 ---
 
 <div class="hero">
-  <img src="{{ '/assets/files/profile.jpeg' | relative_url }}" alt="Portrait of Hyojeong Son">
-  <div>
+  <div class="hero-photo">
+    <img src="{{ '/assets/files/profile.jpeg' | relative_url }}" alt="Portrait of Hyojeong Son">
+  </div>
+  <div class="hero-body">
     <h1>Hyojeong Son</h1>
 
     <div class="intro">
@@ -23,14 +25,24 @@ title: Home
       <a href="https://personal.math.ubc.ca/~jhermon/" target="_blank" rel="noopener">Jonathan Hermon</a>.
       I received my Ph.D. in mathematics from the University of Washington in 2026, where I was advised by
       <a href="https://sites.math.washington.edu/~hoffman/" target="_blank" rel="noopener">Christopher Hoffman</a>.
-      I work in probability theory, with interests in interacting particle systems, stable matching problems, and pattern-avoiding permutations.
     </p>
   </div>
 </div>
 
+<nav class="section-nav" aria-label="Page sections">
+  <a href="#academic-positions">Academic Positions</a>
+  <a href="#research-interests">Research</a>
+  <a href="#publications">Publications</a>
+  <a href="#talks">Talks</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#mentorship">Mentorship</a>
+  <a href="#education">Education</a>
+  <a href="#awards-honors">Awards</a>
+</nav>
+
 ---
 
-## Academic Positions
+<h2 id="academic-positions">Academic Positions</h2>
 
 <dl class="twocol">
   <dt>2026–present</dt>
@@ -42,31 +54,15 @@ title: Home
 
 ---
 
-## Education
+<h2 id="research-interests">Research Interests</h2>
 
-<dl class="twocol">
-  <dt>2021–2026</dt>
-  <dd>
-    Ph.D. in Mathematics, University of Washington (UW)
-    <div class="line">Advisor: <a href="https://sites.math.washington.edu/~hoffman/" target="_blank" rel="noopener">Christopher Hoffman</a></div>
-  </dd>
-
-  <dt>2019–2021</dt>
-  <dd>
-    A.M. in Mathematics, Washington University in St. Louis (WashU)
-    <div class="line">Advisor: <a href="https://www.math.wustl.edu/~feres/" target="_blank" rel="noopener">Renato Feres</a></div>
-  </dd>
-
-  <dt>2015–2018</dt>
-  <dd>
-    B.S., Stony Brook University
-    <div class="line">B.S. in Mathematics and Applied Mathematics & Statistics; minor in Computer Science</div>
-  </dd>
-</dl>
+<p>
+  I work in probability theory, with interests in interacting particle systems, stable matching problems, and pattern-avoiding permutations.
+</p>
 
 ---
 
-## Publications and Preprints
+<h2 id="publications">Publications</h2>
 
 <ul class="pubcards">
   <li class="pubcard">
@@ -98,7 +94,7 @@ title: Home
 
 ---
 
-## Talks
+<h2 id="talks">Talks</h2>
 
 <dl class="twocol">
   <dt>February 2026</dt>
@@ -140,53 +136,35 @@ title: Home
 
 ---
 
-## Teaching
+<h2 id="teaching">Teaching</h2>
 
-<div class="teach-block">
-  <div class="role-label">Instructor, University of Washington</div>
-  <table class="table">
-    <colgroup><col class="course"><col class="term"></colgroup>
-    <thead><tr><th>Course</th><th>Term</th></tr></thead>
-    <tbody>
-      <tr><td>Math 394 (Probability I)</td><td>Summer 2025</td></tr>
-    </tbody>
-  </table>
-</div>
-
-<div class="teach-block">
-  <div class="role-label">Teaching Assistant, University of Washington</div>
-  <table class="table">
-    <colgroup><col class="course"><col class="term"></colgroup>
-    <thead><tr><th>Course</th><th>Term(s)</th></tr></thead>
-    <tbody>
-      <tr><td>Math 111 (Algebra)</td><td>Fall 2022</td></tr>
-      <tr><td>Math 125 (Calculus II)</td><td>Fall 2021, Winter 2022, Fall 2023</td></tr>
-      <tr><td>Math 126 (Calculus III)</td><td>Spring 2022, Summer 2022</td></tr>
-      <tr><td>Math 207 (Differential Equations)</td><td>Winter 2023, Spring 2023</td></tr>
-      <tr><td>Math 394 (Probability I)</td><td>Winter 2024, Fall 2024, Spring 2025</td></tr>
-      <tr><td>Math 395 (Probability II)</td><td>Spring 2024, Winter 2025</td></tr>
-      <tr><td>Math 491 (Stochastic Processes and Option Pricing)</td><td>Fall 2025</td></tr>
-      <tr><td>Math 524 (Graduate Real Analysis I)</td><td>Winter 2026</td></tr>
-      <tr><td>Math 525 (Graduate Real Analysis II)</td><td>Spring 2026</td></tr>
-    </tbody>
-  </table>
-</div>
-
-<div class="teach-block">
-  <div class="role-label">Teaching Assistant, Washington University in St. Louis</div>
-  <table class="table">
-    <colgroup><col class="course"><col class="term"></colgroup>
-    <thead><tr><th>Course</th><th>Term</th></tr></thead>
-    <tbody>
-      <tr><td>Math 131 (Calculus I)</td><td>Fall 2020</td></tr>
-      <tr><td>Math 217 (Differential Equations)</td><td>Spring 2021</td></tr>
-    </tbody>
-  </table>
-</div>
+<table class="table teaching-table">
+  <colgroup>
+    <col class="role">
+    <col class="course">
+    <col class="term">
+    <col class="institution">
+  </colgroup>
+  <thead><tr><th>Role</th><th>Course</th><th>Term(s)</th><th>Institution</th></tr></thead>
+  <tbody>
+    <tr><td>Instructor</td><td>Math 394 (Probability I)</td><td>Summer 2025</td><td>UW</td></tr>
+    <tr><td>Teaching Assistant</td><td>Math 111 (Algebra)</td><td>Fall 2022</td><td>UW</td></tr>
+    <tr><td>Teaching Assistant</td><td>Math 125 (Calculus II)</td><td>Fall 2021, Winter 2022, Fall 2023</td><td>UW</td></tr>
+    <tr><td>Teaching Assistant</td><td>Math 126 (Calculus III)</td><td>Spring 2022, Summer 2022</td><td>UW</td></tr>
+    <tr><td>Teaching Assistant</td><td>Math 207 (Differential Equations)</td><td>Winter 2023, Spring 2023</td><td>UW</td></tr>
+    <tr><td>Teaching Assistant</td><td>Math 394 (Probability I)</td><td>Winter 2024, Fall 2024, Spring 2025</td><td>UW</td></tr>
+    <tr><td>Teaching Assistant</td><td>Math 395 (Probability II)</td><td>Spring 2024, Winter 2025</td><td>UW</td></tr>
+    <tr><td>Teaching Assistant</td><td>Math 491 (Stochastic Processes and Option Pricing)</td><td>Fall 2025</td><td>UW</td></tr>
+    <tr><td>Teaching Assistant</td><td>Math 524 (Graduate Real Analysis I)</td><td>Winter 2026</td><td>UW</td></tr>
+    <tr><td>Teaching Assistant</td><td>Math 525 (Graduate Real Analysis II)</td><td>Spring 2026</td><td>UW</td></tr>
+    <tr><td>Teaching Assistant</td><td>Math 131 (Calculus I)</td><td>Fall 2020</td><td>WashU</td></tr>
+    <tr><td>Teaching Assistant</td><td>Math 217 (Differential Equations)</td><td>Spring 2021</td><td>WashU</td></tr>
+  </tbody>
+</table>
 
 ---
 
-## Mentorship
+<h2 id="mentorship">Mentorship</h2>
 
 <dl class="twocol">
   <dt>Winter 2025–Spring 2026</dt>
@@ -210,7 +188,31 @@ title: Home
 
 ---
 
-## Awards & Honors
+<h2 id="education">Education</h2>
+
+<dl class="twocol">
+  <dt>2021–2026</dt>
+  <dd>
+    Ph.D. in Mathematics, University of Washington (UW)
+    <div class="line">Advisor: <a href="https://sites.math.washington.edu/~hoffman/" target="_blank" rel="noopener">Christopher Hoffman</a></div>
+  </dd>
+
+  <dt>2019–2021</dt>
+  <dd>
+    A.M. in Mathematics, Washington University in St. Louis (WashU)
+    <div class="line">Advisor: <a href="https://www.math.wustl.edu/~feres/" target="_blank" rel="noopener">Renato Feres</a></div>
+  </dd>
+
+  <dt>2015–2018</dt>
+  <dd>
+    B.S., Stony Brook University
+    <div class="line">B.S. in Mathematics and Applied Mathematics & Statistics; minor in Computer Science</div>
+  </dd>
+</dl>
+
+---
+
+<h2 id="awards-honors">Awards &amp; Honors</h2>
 
 <ul class="tight">
   <li><strong>2025.</strong> Excellence in Teaching — Department of Mathematics, University of Washington.</li>
