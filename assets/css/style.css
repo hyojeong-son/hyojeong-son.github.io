@@ -52,9 +52,10 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius
 .quicklinks{display:none!important}
 
 /* Hero with profile photo */
-.hero{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;margin:6px 0 10px}
+.hero{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:end;margin:6px 0 10px}
 .hero img{width:200px;height:200px;object-fit:cover;border-radius:10px;box-shadow:var(--shadow-sm);border:1px solid var(--rule)}
-@media (max-width:720px){ .hero{grid-template-columns:1fr} .hero img{width:160px;height:160px} }
+.hero h1{margin-top:0}
+@media (max-width:720px){ .hero{grid-template-columns:1fr;align-items:start} .hero img{width:160px;height:160px} }
 
 /* Publications — card list (three lines each) */
 .pubcards{list-style:none;padding:0;margin:0}
@@ -76,9 +77,47 @@ ul.tight{list-style:disc;padding-left:1.2rem;margin:0}
 ul.tight li{margin:.35rem 0}
 
 /* Teaching tables (Course first) */
-.table{width:100%;border-collapse:collapse;margin:.2rem 0 0}
+:root{
+  --teach-course-col: 66%;
+  --teach-term-col: 34%;
+}
+.table{width:100%;border-collapse:collapse;margin:.2rem 0 0;table-layout:fixed}
 .table th,.table td{padding:8px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
 .table th{text-align:left;color:var(--muted);font-weight:600;font-size:.9em}
+.table col.course{width:var(--teach-course-col)}
+.table col.term{width:var(--teach-term-col)}
+.table td:nth-child(1){padding-right:16px}
+
+.teach-block{
+  display:grid;
+  grid-template-columns:var(--teach-course-col) var(--teach-term-col);
+  margin:1.2rem 0 .4rem;
+}
+.teach-block .role-label{
+  grid-column:1 / 2;
+  font-weight:700;
+  margin:0 0 .4rem 0;
+}
+.teach-block .table{grid-column:1 / -1}
+
+/* CV-style definition lists: date left, details right */
+:root{--twocol-left:170px}
+.twocol{
+  display:grid;
+  grid-template-columns:var(--twocol-left) 1fr;
+  column-gap:22px;
+  row-gap:10px;
+  margin:0;
+}
+.twocol dt{margin:0;color:var(--muted)}
+.twocol dd{margin:0}
+.twocol dd .line{margin-top:2px}
+
+/* stack nicely on phones */
+@media (max-width:720px){
+  .twocol{grid-template-columns:1fr}
+  .twocol dt{font-weight:600}
+}
 
 /* Dark mode */
 @media (prefers-color-scheme: dark){
@@ -86,56 +125,4 @@ ul.tight li{margin:.35rem 0}
     --bg:#0b1220; --surface:#0f172a; --text:#e5e7eb; --muted:#94a3b8; --rule:#1f2937; --accent:#60a5fa; --shadow-sm:none;
   }
   .container{border-color:#1f2937}
-}
-
-/* --- Align teaching tables across sections --- */
-:root{
-  --teach-course-col: 66%;
-  --teach-term-col: 34%;
-}
-.table{ table-layout: fixed; }            /* use fixed layout so colgroup widths apply */
-.table col.course{ width: var(--teach-course-col); }
-.table col.term{   width: var(--teach-term-col);  }
-/* optional: tighten wrapping a bit on the course column */
-.table td:nth-child(1){ padding-right: 16px; }
-
-
-/* Align name (H1) with the top of the photo */
-.hero{ align-items:start; }          /* was: center */
-.hero h1{ margin-top: 0; }
-
-/* Teaching: make the role label line up with the Course column */
-.teach-block{
-  display:grid;
-  grid-template-columns: var(--teach-course-col) var(--teach-term-col);
-  margin: 1.2rem 0 .4rem;
-}
-.teach-block .role-label{
-  grid-column: 1 / 2;
-  font-weight: 700;
-  margin: 0 0 .4rem 0;
-}
-.teach-block .table{ grid-column: 1 / -1; }
-
-
-/* revert hero alignment to the previous centered look */
-.hero{ align-items: center; }
-
-/* CV-style definition lists: date left, details right */
-:root{ --twocol-left: 170px; }                  /* tweak width to taste */
-.twocol{
-  display:grid;
-  grid-template-columns: var(--twocol-left) 1fr;
-  column-gap: 22px;
-  row-gap: 10px;
-  margin:0;
-}
-.twocol dt{ margin:0; color:var(--muted); }
-.twocol dd{ margin:0; }
-.twocol dd .line{ margin-top:2px; }
-
-/* stack nicely on phones */
-@media (max-width: 720px){
-  .twocol{ grid-template-columns: 1fr; }
-  .twocol dt{ font-weight:600; }
 }
