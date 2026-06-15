@@ -24,8 +24,6 @@ title: Home
       I received my Ph.D. in mathematics from the University of Washington in 2026, where I was advised by
       <a href="https://sites.math.washington.edu/~hoffman/" target="_blank" rel="noopener">Christopher Hoffman</a>.
       I work in probability theory, with interests in interacting particle systems, stable matching problems, and pattern-avoiding permutations.
-      Previously, I completed a B.S. in mathematics and applied mathematics & statistics at Stony Brook University and an A.M. in mathematics at Washington University in St. Louis, where I was advised by
-      <a href="https://www.math.wustl.edu/~feres/" target="_blank" rel="noopener">Renato Feres</a>.
     </p>
   </div>
 </div>
